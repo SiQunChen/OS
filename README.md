@@ -1,2 +1,3 @@
 # environment:
-## VM ware + Ubuntu 22.04.4 LTS
+- VM ware
+- Ubuntu 22.04.4 LTS
