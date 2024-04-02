@@ -1,0 +1,68 @@
+環境:
+	使用 VMware 並使用 Ubuntu 22.04.4 LTS 執行
+
+組員:
+	資工三 110590029 陳思群 : 撰寫程式、環境建置、查找資料
+	資工三 110590006 顏睿寬 : 撰寫程式、環境建置、查找資料
+	資工三 110590024 許宸瑋 : 撰寫程式、環境建置、查找資料
+
+使用說明:
+
+	2.24:
+		創建兩個檔案(範例為test.py, target.py)
+		test.py 可印出 "Hello World"(範例打太快，打成 Hallo)
+		target.py 無任何內容
+		接著執行 hw1.py
+		輸入 source file, target file 的檔名
+		成功複製，target.py 跟 test.py 一樣可印出 "Hello World"，並且 test.py 內容無改變。
+
+	3.19:
+		執行 hw2 已編譯後的檔案，後面加上任何指令
+		例如:./hw2 ls -l, ./hw2 pwd
+		會印出兩次的指令結果及所花的時間，分別為 shared memory, pipe 的結果
+		通常使用 pipe 的秒數較少。
+
+	3.21:
+		執行 hw1-3 已編譯後的檔案，後面加上任何數字
+		例如: ./hw1-3 8, ./hw1-3 35
+		會印出 Collatz 序列
+		當 Child process 完成後會印出 "Child process has completed."
+
+	3.27:
+		創建兩個檔案(範例為input.txt, copy.txt)
+		input.txt 可印出 "Hello World"(範例打太快，打成 Hallo)
+		copy.txt 無任何內容
+		接著執行 hw1-4 已編譯後的檔案，後面加上複製的檔案以及貼上的檔案
+		成功複製，input.txt 跟 copy.txt 一樣可印出 "Hello World"，並且 input.txt 內容無改變。
+
+	chapter2 project:
+	1. jiffies
+		sudo insmod jiffies.ko 建立模組
+		sudo dmesg 查看訊息
+		cat /proc/jiffies 印出 jiffies 的 value
+		sudo rmmod jiffies 刪除模組
+		sudo dmesg 查看訊息
+	2. seconds
+		sudo insmod seconds.ko 建立模組
+		sudo dmesg 查看訊息
+		cat /proc/seconds 查看執行時間，會隨著時間流動慢慢增加
+		sudo rmmod jiffies 刪除模組
+		sudo dmesg 查看訊息
+
+	chapter3 project 2:
+		sudo insmod pid.ko 建立模組
+		echo "XXX" >/proc/pid 寫入 pid (XXX 需放入存在的 pid，可至 proc 查看有哪些)
+		cat /proc/pid 顯示剛剛寫入 pid 的 command, pid, state
+		sudo rmmod jiffies 刪除模組
+		sudo dmesg 查看訊息
+
+	chapter3 project 3:
+		sudo insmod ListTaskLinear.ko 建立模組
+		sudo dmesg 查看訊息
+		sudo rmmod ListTaskLinear 刪除模組
+		sudo dmesg 查看訊息
+
+		sudo insmod ListTaskDFS.ko 建立模組
+		sudo dmesg 查看訊息
+		sudo rmmod ListTaskDFS 刪除模組
+		sudo dmesg 查看訊息
