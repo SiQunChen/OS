@@ -23,6 +23,13 @@
 		因為 threads 有些快有些慢，如果可用的 resources 不夠則要求失敗
 		否則成功獲取 resources 並上鎖
 		經過一秒後則釋放 resources
+	chapter4 project1:
+		執行 ./Chap4_Project
+		印出程式碼中的 sudoku array 是否 valid
+
+	chapter4 project2:
+		執行 ./ch6
+		將程式碼中的 array 排序並印出
 
 	chapter5 project:
 	
