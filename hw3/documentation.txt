@@ -1,0 +1,49 @@
+環境:
+	使用 VMware 並使用 Ubuntu 22.04.4 LTS 執行
+
+組員:
+	資工三 110590029 陳思群 : 撰寫程式、環境建置、查找資料
+	資工三 110590006 顏睿寬 : 撰寫程式、環境建置、查找資料
+	資工三 110590024 許宸瑋 : 撰寫程式、環境建置、查找資料
+
+使用說明:
+
+	7.15:
+		執行 ./P7_15，後面加上任一正整數
+		印出費式數列
+
+	7.17:
+		執行 ./P7_17
+		根據公式印出 pi (因為點是隨機分布的，所以每次答案會不一樣)
+		可在程式碼中更改 NUM_POINTS
+
+	8.32:
+		執行 ./P8_32
+		印出過橋順序
+		預設為 10 個 FARMERS，南北各 5 個，可在程式碼進行更改
+
+	9.28:
+		執行 ./P9_28，後面加上任一正整數 address
+		印出該 address 的 page number, offset
+
+	Chap_7_Project_1:
+		執行 ./example
+		接著輸入任一正整數
+		印出 Thread Pool
+
+	Chap_7_Project_2:
+		執行 ./sleepingTA
+		印出執行順序
+		預設為 5 位學生，可在程式碼進行更改
+
+	Chap_7_Project_3:
+		執行 ./dining_philosophers 
+		印出執行順序
+		如要停止，點擊 CTRL + C
+		可在程式碼中更改 NUM_PHILOSOPHERS, MAX_EATING
+
+	Chap_7_Project_4:
+		執行 ./producer_consumer
+		印出執行順序
+		如要停止，點擊 CTRL + C
+		可在程式碼中更改 BUFFER_SIZE
