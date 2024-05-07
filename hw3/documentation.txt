@@ -19,7 +19,7 @@
 
 	8.32:
 		執行 ./P8_32
-		印出過橋順序
+		印出過橋結果
 		預設為 10 個 FARMERS，南北各 5 個，可在程式碼進行更改
 
 	9.28:
@@ -33,17 +33,27 @@
 
 	Chap_7_Project_2:
 		執行 ./sleepingTA
-		印出執行順序
+		印出執行結果
 		預設為 5 位學生，可在程式碼進行更改
 
 	Chap_7_Project_3:
 		執行 ./dining_philosophers 
-		印出執行順序
+		印出執行結果
 		如要停止，點擊 CTRL + C
 		可在程式碼中更改 NUM_PHILOSOPHERS, MAX_EATING
 
 	Chap_7_Project_4:
 		執行 ./producer_consumer
-		印出執行順序
+		印出執行結果
 		如要停止，點擊 CTRL + C
 		可在程式碼中更改 BUFFER_SIZE
+
+	Chap_8:
+		執行 ./ch8，後面加上三個正整數 available
+		印出執行結果
+		可在程式碼中更改 NUM_RESOURCES, NUM_CUSTOMERS
+	
+	Chap_9:
+		執行 ./ch9
+		印出執行結果
+		可在程式碼中更改 MAX_MEMORY_SIZE
